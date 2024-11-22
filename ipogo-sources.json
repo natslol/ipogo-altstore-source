@@ -1,0 +1,44 @@
+{
+    "name": "Ipogo Installer",
+    "subtitle": "Just Ipogo here...",
+    "description": "Catch them all",
+    "iconURL": "https://raw.githubusercontent.com/natslol/ipogo-altstore-source/refs/heads/main/AltStoreIcon.png",
+    "headerURL": "https://raw.githubusercontent.com/natslol/ipogo-altstore-source/refs/heads/main/AltStoreHeader.jpg",
+    "website": "https://ipogo.app/",
+    "featuredApps": [
+        "com.nianticlabs.pokemongo"
+    ],
+    "apps": [
+        {
+            "name": "Pokémon GO",
+            "bundleIdentifier": "com.nianticlabs.pokemongo",
+            "developerName": "Niantic",
+            "localizedDescription": "Just Ipogo  😂.",
+            "iconURL": "https://raw.githubusercontent.com/natslol/ipogo-altstore-source/refs/heads/main/AppIcon.png",
+            "versions": [
+                {
+                    "version": "0.339.1",
+                    "date": "2024-23-11",
+                    "size": 149088572,
+                    "downloadURL": "https://ipogo.app/download/ipogo-3.6.1.ipa",
+                    "localizedDescription": "New features and bug fixes."
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.healthkit",
+                    "com.apple.developer.healthkit.access",
+                    "com.apple.developer.healthkit.background-delivery"
+                ],
+                "privacy": {
+                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                    "NSCameraUsageDescription": "App uses camera to VR POKEMON IDK.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video.",
+                    "NSHealthClinicalHealthRecordsShareUsageDescription": "To get more eggs"
+                }
+            }
+        }
+    ]
+}
